@@ -48,15 +48,16 @@
     "order": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
-      "type": "integer"
+      "type": "integer",
+      "unique": false
     },
     "url": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "string"

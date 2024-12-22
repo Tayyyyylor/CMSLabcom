@@ -406,7 +406,7 @@ export interface ApiPostPost extends Struct.CollectionTypeSchema {
     order: Schema.Attribute.Integer &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
@@ -422,7 +422,7 @@ export interface ApiPostPost extends Struct.CollectionTypeSchema {
     url: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
   };

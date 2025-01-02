@@ -1,7 +1,7 @@
 export default () => ({
         upload: {
           providerOptions: {
-            sizeLimit: 2000000, // 2 Mo (en octets)
+            sizeLimit: 10485760, // 10 Mo (en octets)
           },
         }      
 });

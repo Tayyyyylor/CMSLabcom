@@ -19,7 +19,7 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
@@ -35,7 +35,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "desc": {
       "pluginOptions": {
@@ -52,7 +53,8 @@
         }
       },
       "type": "integer",
-      "unique": false
+      "unique": false,
+      "required": true
     },
     "url": {
       "pluginOptions": {
@@ -60,7 +62,8 @@
           "localized": false
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
